@@ -1,0 +1,54 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/QuickToolPlus.uss?fileID=7433441132597879392&amp;guid=cd1593b8f4e75e04c9b96935708f55c4&amp;type=3#QuickToolPlus" />
+    <ui:Label text="Primative Spawner" name="Primative_Header" />
+    <ui:VisualElement name="primative_buttons" class="button-container" style="flex-grow: 1;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="cube_button" tooltip="Cube" class="quicktool-button primative-button">
+            <ui:VisualElement name="cube_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; background-image: resource(&apos;Icons/Primitives/cube_icon&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="sphere_button" tooltip="Sphere" class="quicktool-button primative-button">
+            <ui:VisualElement name="sphere_icon" class="quicktool-button-icon" style="flex-grow: 1; background-image: resource(&apos;Icons/Primitives/sphere_icon&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="capsule_button" tooltip="Capsule" class="quicktool-button primative-button">
+            <ui:VisualElement name="capsule_icon" class="quicktool-button-icon" style="flex-grow: 1; background-image: resource(&apos;Icons/Primitives/capsule_icon&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="cylinder_button" tooltip="Cylinder" class="quicktool-button primative-button">
+            <ui:VisualElement name="cylinder_icon" class="quicktool-button-icon" style="flex-grow: 1; background-image: resource(&apos;Icons/Primitives/cylinder_icon&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="plane_button" tooltip="Plane" class="quicktool-button primative-button">
+            <ui:VisualElement name="plane_icon" class="quicktool-button-icon" style="flex-grow: 1; background-image: resource(&apos;Icons/Primitives/plane_icon&apos;);" />
+        </ui:Button>
+    </ui:VisualElement>
+    <ui:Label text="Primative Material" name="Material_Header" />
+    <ui:VisualElement name="material_buttons" class="button-container" style="flex-grow: 1;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="default_material_button" tooltip="Default" class="quicktool-button">
+            <ui:VisualElement name="default_material_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; background-image: resource(&apos;Icons/Materials/default_material&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="BrushedIron_button" tooltip="Brushed Iron" class="quicktool-button">
+            <ui:VisualElement name="BrushedIron_Icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; background-image: resource(&apos;Resource Files/BrushedIron/BrushedIron_Albedo&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="SimpleRedBricks_button" tooltip="Simple Red Bricks" class="quicktool-button">
+            <ui:VisualElement name="SimpleRedBricks_Icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; background-image: resource(&apos;Resource Files/SimpleRedBricks/SimpleRedBricks_Albedo&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="WoodenFlooring_button" tooltip="Wooden Flooring" class="quicktool-button">
+            <ui:VisualElement name="WoodenFlooring_Icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; background-image: resource(&apos;Resource Files/WoodenFlooring/WoodenFlooring_Albedo&apos;); -unity-background-scale-mode: stretch-to-fill;" />
+        </ui:Button>
+    </ui:VisualElement>
+    <ui:Label text="Primative Color" name="Color_Header" />
+    <ui:VisualElement name="color_buttons" class="button-container" style="flex-grow: 1;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="red_button" tooltip="Red" class="quicktool-button">
+            <ui:VisualElement name="red_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(255, 0, 0); background-image: resource(&apos;Icons/Materials/default_material&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="green_button" tooltip="Green" class="quicktool-button">
+            <ui:VisualElement name="green_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(0, 255, 0); background-image: resource(&apos;Icons/Materials/default_material&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="blue_button" tooltip="Blue" class="quicktool-button">
+            <ui:VisualElement name="blue_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(0, 0, 255); background-image: resource(&apos;Icons/Materials/default_material&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="white_button" tooltip="White" class="quicktool-button">
+            <ui:VisualElement name="white_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: resource(&apos;Icons/Materials/default_material&apos;);" />
+        </ui:Button>
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="black_button" tooltip="Black" class="quicktool-button">
+            <ui:VisualElement name="black_icon" class="quicktool-button-icon" style="flex-grow: 1; width: 40px; height: 40px; -unity-background-scale-mode: stretch-to-fill; -unity-background-image-tint-color: rgb(0, 0, 0); background-image: resource(&apos;Icons/Materials/default_material&apos;);" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

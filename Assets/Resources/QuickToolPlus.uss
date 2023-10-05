@@ -1,0 +1,5 @@
+#cubeButton {
+    background-image: url("Assets/Resources/Icons/cube_icon.png");
+}
+
+/* Add similar styles for other buttons */

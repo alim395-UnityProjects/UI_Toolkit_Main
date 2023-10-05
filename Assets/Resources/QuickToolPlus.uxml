@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+<root>
+    <Label text="Instantiate Primitives" />
+    <Button name="cubeButton" text="Cube" tooltip="Create Cube" />
+    <!-- Add similar buttons for Capsule, Cylinder, Plane, Sphere -->
+</root>
+    <Style src="project://database/Assets/Editor/QuickToolPlus.uss?fileID=7433441132597879392&amp;guid=df3cdd6f9fbbabd46ac049fbfd85473d&amp;type=3#QuickToolPlus" />
+	<engine:Label text="Hello World! From UXML" />
+	<engine:Label class="custom-label" text="Hello World! With Style" />
+
+</engine:UXML>

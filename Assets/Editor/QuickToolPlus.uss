@@ -1,0 +1,40 @@
+.custom-label {
+    font-size: 20px;
+    -unity-font-style: bold;
+    color: rgb(68, 138, 255);
+}
+
+.button-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.quicktool-button {
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.quicktool-button-icon {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+
+.quicktool-button-icon:hover {
+    opacity: 1;
+}
+
+.quicktool-button:active > .quicktool-button-icon {
+    opacity: 0.6;
+}
+
+.primative-button {
+}
+
+.quicktool-toggle {
+}
+
+.wmshader-toggle {
+}
